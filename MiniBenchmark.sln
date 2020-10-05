@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBenchmark", "src\MiniBenchmark\MiniBenchmark.csproj", "{D9B4B2E4-0FB7-48C4-A9D1-DDEB267EA6D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{36B530AD-C3FD-4CBC-9495-DCEB0ED371A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6054CC88-E845-47C2-8427-26C545192546}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBenchmark.Samples", "samples\MiniBenchmark.Samples\MiniBenchmark.Samples.csproj", "{34ED35F0-40E2-4596-BECD-4C64FAABD85B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBenchmark.Tests", "test\MiniBenchmark.Tests\MiniBenchmark.Tests.csproj", "{2C25F028-ED74-41A2-9BD1-7F1B2C13F3F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_SolutionItems", "_SolutionItems", "{AE3EC4CE-1F5F-4778-91A1-A08D2AC3227B}"
+ProjectSection(SolutionItems) = preProject
+	.gitignore = .gitignore
+	README.md = README.md
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{1EAC69DB-207F-4D2A-B197-06FF9A420D6D}"
+ProjectSection(SolutionItems) = preProject
+	build\ads-pipeline.yaml = build\ads-pipeline.yaml
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9B4B2E4-0FB7-48C4-A9D1-DDEB267EA6D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9B4B2E4-0FB7-48C4-A9D1-DDEB267EA6D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9B4B2E4-0FB7-48C4-A9D1-DDEB267EA6D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9B4B2E4-0FB7-48C4-A9D1-DDEB267EA6D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34ED35F0-40E2-4596-BECD-4C64FAABD85B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34ED35F0-40E2-4596-BECD-4C64FAABD85B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34ED35F0-40E2-4596-BECD-4C64FAABD85B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34ED35F0-40E2-4596-BECD-4C64FAABD85B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C25F028-ED74-41A2-9BD1-7F1B2C13F3F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C25F028-ED74-41A2-9BD1-7F1B2C13F3F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C25F028-ED74-41A2-9BD1-7F1B2C13F3F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C25F028-ED74-41A2-9BD1-7F1B2C13F3F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{34ED35F0-40E2-4596-BECD-4C64FAABD85B} = {36B530AD-C3FD-4CBC-9495-DCEB0ED371A8}
+		{2C25F028-ED74-41A2-9BD1-7F1B2C13F3F1} = {6054CC88-E845-47C2-8427-26C545192546}
+		{1EAC69DB-207F-4D2A-B197-06FF9A420D6D} = {AE3EC4CE-1F5F-4778-91A1-A08D2AC3227B}
+	EndGlobalSection
+EndGlobal
